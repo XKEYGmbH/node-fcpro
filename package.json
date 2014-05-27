@@ -1,0 +1,31 @@
+{
+  "name": "FCProRest",
+  "version": "0.1.0",
+  "description": "A node.js client module for the FCPro API",
+  "keywords": [
+    "converter",
+    "pdf",
+    "office",
+    "REST",
+    "interface"
+  ],
+  "homepage": "http://www.xkey.at",
+  "author": "Dominik Danninger <ddanninger@xkey.at>",
+  "contributors": [
+  ],
+  "main": "index",
+  "scripts": {
+    "test": "node specs.js"
+  },
+  "dependencies": {
+    "temp": "~0.7.0",
+    "mime": "~1.2.11"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}
