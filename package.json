@@ -1,5 +1,5 @@
 {
-  "name": "FCProRest",
+  "name": "fcpro",
   "version": "0.1.0",
   "description": "A node.js client module for the FCPro API",
   "keywords": [
