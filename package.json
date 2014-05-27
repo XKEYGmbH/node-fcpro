@@ -7,16 +7,10 @@
     "pdf",
     "office",
     "REST",
-    "interface"
+    "document converter"
   ],
   "homepage": "http://www.xkey.at",
   "author": "Dominik Danninger <ddanninger@xkey.at>",
-  "contributors": [
-  ],
-  "main": "index",
-  "scripts": {
-    "test": "node specs.js"
-  },
   "dependencies": {
     "temp": "~0.7.0",
     "mime": "~1.2.11"
@@ -31,5 +25,5 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/ddanninger/node-fcpro.git"
-  },
+  }
 }
