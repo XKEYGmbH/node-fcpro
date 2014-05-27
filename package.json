@@ -1,6 +1,6 @@
 {
   "name": "fcpro",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A node.js client module for the FCPro API",
   "keywords": [
     "converter",
@@ -11,6 +11,7 @@
   ],
   "homepage": "http://www.xkey.at",
   "author": "Dominik Danninger <ddanninger@xkey.at>",
+  "main": "./lib/FCProREST",
   "dependencies": {
     "temp": "~0.7.0",
     "mime": "~1.2.11"
