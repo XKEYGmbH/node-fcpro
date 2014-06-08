@@ -29,11 +29,11 @@ var profileName = "default",
     
 api.Auth(function(success) {
 	if (success) {
-	  api.GetSettingsCollection(function(settings) {
-		 	var collection = settings.GetSettingsCollectionResult;
-    });
-    
-    api.UploadWaitFor(fileExtension, profileName, filePath, label, function(jobGuid,path,data) {
+		api.GetSettingsCollection(function(settings) {
+			var collection = settings.GetSettingsCollectionResult;
+		});
+		
+		api.UploadWaitFor(fileExtension, profileName, filePath, label, function(jobGuid,path,data) {
 			// DO SOMETHING WITH THE CONVERTED DOCUMENT 
 		});
 	}
