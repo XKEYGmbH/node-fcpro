@@ -37,5 +37,5 @@ api.Auth(function(success) {
 			// DO SOMETHING WITH THE CONVERTED DOCUMENT 
 		});
 	}
-}
+});
 ```
