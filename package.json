@@ -13,8 +13,8 @@
   "author": "Dominik Danninger <ddanninger@xkey.at>",
   "main": "./lib/FCProREST",
   "dependencies": {
-    "temp": "~0.7.0",
-    "mime": "~1.2.11"
+    "mime": "^2.4.0",
+    "temp": "~0.7.0"
   },
   "engines": {
     "node": "*"
